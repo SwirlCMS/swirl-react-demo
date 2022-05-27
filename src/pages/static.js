@@ -1,11 +1,11 @@
-import {useEffect} from 'react'
+import { useEffect } from 'react'
 import Head from 'next/head'
 import { Button, Text } from '@chakra-ui/react'
 
 export default function Home() {
   useEffect(() => {
     import('epic-cms')
-  });
+  })
   return (
     <div className="container">
       <Head>
@@ -17,9 +17,7 @@ export default function Home() {
         <h1>Static page</h1>
       </main>
 
-      <style jsx>{`
-        
-      `}</style>
+      <style jsx>{``}</style>
 
       <style jsx global>{`
         html,

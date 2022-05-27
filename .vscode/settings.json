@@ -1,5 +1,5 @@
 {
-  "cSpell.words": [
-    "Chakra"
-  ]
+  "cSpell.words": ["Chakra"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
