@@ -1,0 +1,46 @@
+{
+  "name": "@swirl-cms/react",
+  "version": "1.0.0-alpha",
+  "private": false,
+  "source": "src/lib/index.ts",
+  "main": "dist/cjs",
+  "module": "dist",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "rollup:build": "rm -rf dist && rollup -c",
+    "rollup:watch": "rollup -c -w"
+  },
+  "files": [
+    "dist",
+    "src/lib"
+  ],
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
+  "dependencies": {
+    "@swirl-cms/swirl": "^1.0.0-alpha",
+    "axios": "^0.27.2"
+  },
+  "peerDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "yalcSig": "b56fbc2f821db5fdb35b35fdf48191e6"
+}

@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "@swirl-cms/react": {
+      "signature": "b56fbc2f821db5fdb35b35fdf48191e6",
+      "file": true
+    }
+  }
+}

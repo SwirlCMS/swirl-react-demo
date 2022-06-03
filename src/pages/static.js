@@ -1,10 +1,9 @@
 import { useEffect } from 'react'
 import Head from 'next/head'
-import { Button, Text } from '@chakra-ui/react'
 
 export default function Home() {
   useEffect(() => {
-    import('epic-cms')
+    import('swirl-cms')
   })
   return (
     <div className="container">

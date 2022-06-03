@@ -3,9 +3,6 @@ import Head from 'next/head'
 import { Button, Text } from '@chakra-ui/react'
 
 export default function Home() {
-  useEffect(() => {
-    import('epic-cms')
-  })
   return (
     <div className="container">
       <Head>
@@ -14,11 +11,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <Button colorScheme="blue" data-epic-cms-id="button1#1234">
+        <Button colorScheme="blue" data-swirl-cms-id="button1#1234">
           Button
         </Button>
         {/* <div className="drop-pad"></div> */}
-        <Text data-epic-cms-id="text1#1234">
+        <Text data-swirl-cms-id="text1#1234">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
           tincidunt tellus sed pretium finibus. Suspendisse euismod magna erat,
           sed suscipit lacus faucibus id. Phasellus sed feugiat mauris. Maecenas
@@ -49,7 +46,6 @@ export default function Home() {
           vehicula. Aliquam venenatis semper tincidunt. Nunc porttitor odio vel
           enim rhoncus interdum.
         </Text>
-        <epic-cms components={components} />
       </main>
 
       <style jsx>{``}</style>
